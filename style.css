@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background: #c2baaf;
+    background: #6b7a8f;
+    background: #ffce2b;
+    height: 65px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+}
+.logo {
+    margin: 0;
+    font-size: 2rem;
+}
+.logo a {
+    color: #fff;
+}
+.logo a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.container {
+    padding: 35px;
+}
+table.view {
+    width: 100%;
+    margin: 35px auto;
+}
+.view td {
+   padding: 10px; 
+}
+.view thead td {
+    background: #708090;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 18px;
+}
+.my-form, .profile {
+    background: #f6f6f2;
+    background: #f1f1f1;
+    background: #f1f1f1;
+    background: #f1f1f1;
+    max-width: 450px;
+    margin: 35px auto;
+}
+.profile {
+    max-width: 100%;
+}
+.profile .body {
+    padding: 35px;
+}
+.profile .body h4 {
+    font-weight: bold;
+}
+.my-form h1, .profile h1 {
+    margin: 0;
+    text-align: center;
+    line-height: 75px;
+    background: #708090;
+    color: #fff;
+}
+.my-form form {
+    padding: 35px;
+}
+.my-form .submit {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+.mybtn {
+    background: #82a53e;
+    background: #f7872f;
+    background: #959492;
+    background: #ffce2b;
+    border: none;
+}
+.mybtn:hover {
+    background: #e3bd3e;
+}
+.btn-2 {
+    background: #0197b2;
+    background: #dcc7aa;
+    background: #b2afac;
+    background: #93a8bd;
+}
+.btn-2:hover {
+    background: #7990a6;
+}
+.btn-d {
+    background: #f83b3b;
+}
+.btn-d:hover {
+    background: #f83b3b;
+}
+.btn-c {
+    margin-left: 15px;
+}
+
+p.user-view-top {
+    width: 45%;
+    display: inline;
+}
+span.name {
+    text-transform: capitalize;
+}
+#position-fields, #edu-fields {
+    padding-left: 15px;
+}
+#position-fields textarea{
+    display: block;
+    margin-top: 5px;
+}
+.view-btns {
+    display: inline;
+}
